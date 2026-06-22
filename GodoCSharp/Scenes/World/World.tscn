@@ -5,8 +5,10 @@
 [ext_resource type="PackedScene" uid="uid://bj0v14rsb0qy8" path="res://GodoCSharp/Scenes/Hobbit/Hobbit.tscn" id="3_faf6x"]
 [ext_resource type="PackedScene" uid="uid://ccsyav7jsp808" path="res://GodoCSharp/Scenes/Wizard/Wizard.tscn" id="4_rw2la"]
 
-[node name="World" type="Node2D" unique_id=722847179]
+[node name="World" type="Node2D" unique_id=722847179 node_paths=PackedStringArray("_wizard", "_hobbit")]
 script = ExtResource("1_5wvuq")
+_wizard = NodePath("Wizard")
+_hobbit = NodePath("Hobbit")
 metadata/_edit_horizontal_guides_ = [501.0]
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=1696928691]
@@ -15,12 +17,6 @@ centered = false
 
 [node name="Hobbit" parent="." unique_id=266733652 instance=ExtResource("3_faf6x")]
 position = Vector2(217, 448)
-
-[node name="Hobbit2" parent="." unique_id=1331269816 instance=ExtResource("3_faf6x")]
-position = Vector2(333, 356)
-
-[node name="Hobbit3" parent="." unique_id=281604237 instance=ExtResource("3_faf6x")]
-position = Vector2(489, 430)
 
 [node name="Wizard" parent="." unique_id=923435201 instance=ExtResource("4_rw2la")]
 position = Vector2(863, 395)

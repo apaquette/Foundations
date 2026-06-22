@@ -3,27 +3,23 @@ using System;
 
 public partial class World : Node2D
 {
-	public override void _EnterTree()
-	{
-		
-	}
+	[Export] private Wizard _wizard;
+	[Export] private Hobbit _hobbit;
 	// Called when the node enters the scene tree for the first time.
 	public override void _Ready()
 	{
-		
-	}
-	// Called every frame. 'delta' is the elapsed time since the previous frame.
-	public override void _Process(double delta)
-	{
-		
+		//_wizard.CastSpell += DamageHobbit;
+		_hobbit.KillWizard += DamageWizard;
 	}
 
-	public override void _PhysicsProcess(double delta)
+	private void DamageHobbit()
 	{
-		
+		_hobbit.SetProcess(false);
+		_hobbit.Scale = new Vector2(0.3f, 0.3f);
 	}
-	public override void _ExitTree()
+
+	private void DamageWizard()
 	{
-		
+		_wizard.Scale = new Vector2(0.3f, 0.3f);
 	}
 }
