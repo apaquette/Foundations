@@ -1,10 +1,10 @@
 [gd_scene format=3 uid="uid://cvx7d54fsoii5"]
 
-[ext_resource type="Script" uid="uid://byvgb1r3hgqla" path="res://Ocean.cs" id="1_tiovm"]
-[ext_resource type="Texture2D" uid="uid://dfdjk32ai6v08" path="res://Assets/Water.png" id="2_j38dg"]
-[ext_resource type="Texture2D" uid="uid://biwbnqsa2nuw" path="res://Assets/Plane.png" id="3_nb2vx"]
-[ext_resource type="Texture2D" uid="uid://djmtulaoq5mij" path="res://Assets/Helicopter.png" id="4_bwgqs"]
-[ext_resource type="Texture2D" uid="uid://dypt20xyov7mi" path="res://Assets/Carrier.png" id="5_ihpsq"]
+[ext_resource type="Script" uid="uid://byvgb1r3hgqla" path="res://Foundations/Ocean.cs" id="1_tiovm"]
+[ext_resource type="Texture2D" uid="uid://dfdjk32ai6v08" path="res://Foundations/Assets/Water.png" id="2_j38dg"]
+[ext_resource type="Texture2D" uid="uid://biwbnqsa2nuw" path="res://Foundations/Assets/Plane.png" id="3_nb2vx"]
+[ext_resource type="Texture2D" uid="uid://djmtulaoq5mij" path="res://Foundations/Assets/Helicopter.png" id="4_bwgqs"]
+[ext_resource type="Texture2D" uid="uid://dypt20xyov7mi" path="res://Foundations/Assets/Carrier.png" id="5_ihpsq"]
 
 [node name="Ocean" type="Node2D" unique_id=1330864943 node_paths=PackedStringArray("_planeSprite", "_helicoperSprite")]
 script = ExtResource("1_tiovm")

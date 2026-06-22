@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dfdjk32ai6v08"
-path="res://.godot/imported/Water.png-b2e18ca3bc1ee31d8f0e6ddd4a76a170.ctex"
+uid="uid://djmtulaoq5mij"
+path="res://.godot/imported/Helicopter.png-406b3aca7a52efb223bb35ec0b054135.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Water.png"
-dest_files=["res://.godot/imported/Water.png-b2e18ca3bc1ee31d8f0e6ddd4a76a170.ctex"]
+source_file="res://Foundations/Assets/Helicopter.png"
+dest_files=["res://.godot/imported/Helicopter.png-406b3aca7a52efb223bb35ec0b054135.ctex"]
 
 [params]
 

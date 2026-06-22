@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://bj0v14rsb0qy8"]
+
+[ext_resource type="Texture2D" uid="uid://s7dd8xtmhqpn" path="res://GodoCSharp/Assets/Hobbit.png" id="1_2p0w5"]
+[ext_resource type="Script" uid="uid://dejj0r1632gv7" path="res://GodoCSharp/Scenes/Hobbit/Hobbit.cs" id="1_ktyq5"]
+
+[node name="Hobbit" type="Node2D" unique_id=266733652]
+script = ExtResource("1_ktyq5")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=2045598339]
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("1_2p0w5")

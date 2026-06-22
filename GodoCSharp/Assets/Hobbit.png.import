@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cmmrn3chhv3r8"
-path="res://.godot/imported/tile_454.png-fcdbeea620979ab92daf81383b0201d8.ctex"
+uid="uid://s7dd8xtmhqpn"
+path="res://.godot/imported/Hobbit.png-80d724cf4e19887da826e77ac3074949.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/tile_454.png"
-dest_files=["res://.godot/imported/tile_454.png-fcdbeea620979ab92daf81383b0201d8.ctex"]
+source_file="res://GodoCSharp/Assets/Hobbit.png"
+dest_files=["res://.godot/imported/Hobbit.png-80d724cf4e19887da826e77ac3074949.ctex"]
 
 [params]
 

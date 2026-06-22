@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dypt20xyov7mi"
-path="res://.godot/imported/Carrier.png-2909b4d7d1c30f76b27adfee56f957c3.ctex"
+uid="uid://cmmrn3chhv3r8"
+path="res://.godot/imported/tile_454.png-940f4ddc41ed3918836f2f29224b0638.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Carrier.png"
-dest_files=["res://.godot/imported/Carrier.png-2909b4d7d1c30f76b27adfee56f957c3.ctex"]
+source_file="res://Foundations/Assets/tile_454.png"
+dest_files=["res://.godot/imported/tile_454.png-940f4ddc41ed3918836f2f29224b0638.ctex"]
 
 [params]
 

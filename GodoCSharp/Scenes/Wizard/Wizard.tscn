@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://ccsyav7jsp808"]
+
+[ext_resource type="Texture2D" uid="uid://bsix77dmbr0wi" path="res://GodoCSharp/Assets/Wizard.png" id="1_foyhi"]
+[ext_resource type="Script" uid="uid://dbxrq4ia0hd7m" path="res://GodoCSharp/Scenes/Wizard/Wizard.cs" id="1_w8bf4"]
+
+[node name="Wizard" type="Node2D" unique_id=923435201 node_paths=PackedStringArray("_timer")]
+script = ExtResource("1_w8bf4")
+_timer = NodePath("Timer")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1413839865]
+texture = ExtResource("1_foyhi")
+
+[node name="Timer" type="Timer" parent="." unique_id=675633]
+wait_time = 2.0
+one_shot = true
+autostart = true
